@@ -3,6 +3,7 @@ languageCode: "en-us"
 title: "Hugo-profile"
 theme: "hugo-profile"
 relativeURLs: true
+publishDir: "docs"
 
 googleanalytics: UA-xxxxxx-x
 disqusShortname:
