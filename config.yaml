@@ -1,6 +1,7 @@
 baseURL: ""
 languageCode: "en-us"
-title: "Hugo-profile"
+title: "Portfolio"
+# title2: "Portfolio | Muhammad Saqib"
 theme: "hugo-profile"
 relativeURLs: true
 publishDir: "docs"
@@ -21,12 +22,12 @@ enableEmoji: true
 
 # menus
 Menus:
-  main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blog
-      weight: 1
+  # main:
+  #   - identifier: blog
+  #     name: Blog
+  #     title: Blog posts
+  #     url: /blog
+  #     weight: 1
 
     #Dropdown menu
     # - identifier: dropdown
@@ -50,28 +51,28 @@ params:
   version: 3
   customCSS: false
 
-  favicon: "/images/fav.png"
+  favicon: "/images/portfolio.png"
   description: "A high performance hugo theme for personal portfolio and blog."
 
   # home
   disable_home: false
-  profile_image: "/images/profile.png"
-  name: "Example name"
+  profile_image: "./images/profile.png"
+  name: "Muhammad Saqib"
   namecolor: ffc107
-  profession: "Profession"
-  github: "https://github.com"
-  gitlab: "https://gitlab.com"
-  linkedin: "https://linkedin.com"
-  twitter: "https://twitter.com/"
-  instagram: "https://instagram.com/"
-  facebook: "https://facebook.com"
+  profession: "React Native Developer"
+  github: "https://github.com/sqb47"
+  # gitlab: "https://gitlab.com"
+  linkedin: "https://www.linkedin.com/in/sqb3019/"
+  # twitter: "https://twitter.com/"
+  # instagram: "https://instagram.com/"
+  # facebook: "https://facebook.com"
 
   # Custom social links
   customSocialLinks:
-    - imageURL: "https://hugo-profile.netlify.app/images/fav.png"
-      url: "https://gohugo.com"
+    # - imageURL: "https://hugo-profile.netlify.app/images/fav.png"
+    #   url: "https://gohugo.com"
     - fontAwesomeIconName: "fa fa-envelope"
-      url: "https://gmail.com"
+      url: "mailto:saqib.3019@gmail.com?subject=Say hi!"
 
   # About
   disable_about: false
@@ -98,22 +99,22 @@ params:
       featuredpoints:
         - point: Lead backend developer for a product.
         - point: Created a frontend design for a product.
-    - company: "Facebook"
-      # id: "facebook-developer" // use this, when you want to change the id(used for navigation)
-      role: "Fullstack developer"
-      startdate: Mar 2020
-      enddate: Dec 2020
-      featuredpoints:
-        - point: Lead backend developer for a product.
-        - point: Created a frontend design for a product.
-    - company: "Amazon"
-      # id: "amazon-developer" // use this, when you want to change the id(used for navigation)
-      role: "Fullstack developer"
-      startdate: Feb 2019
-      enddate: Jan 2020
-      featuredpoints:
-        - point: Lead backend developer for a product.
-        - point: Created a frontend design for a product.
+    # - company: "Facebook"
+    #   # id: "facebook-developer" // use this, when you want to change the id(used for navigation)
+    #   role: "Fullstack developer"
+    #   startdate: Mar 2020
+    #   enddate: Dec 2020
+    #   featuredpoints:
+    #     - point: Lead backend developer for a product.
+    #     - point: Created a frontend design for a product.
+    # - company: "Amazon"
+    #   # id: "amazon-developer" // use this, when you want to change the id(used for navigation)
+    #   role: "Fullstack developer"
+    #   startdate: Feb 2019
+    #   enddate: Jan 2020
+    #   featuredpoints:
+    #     - point: Lead backend developer for a product.
+    #     - point: Created a frontend design for a product.
 
   # Education
   disable_education: false
@@ -144,7 +145,7 @@ params:
       description: "Description of project"
 
   # Achievements
-  disable_achievements: false
+  disable_achievements: true
   achievements:
     - title: Competition winner
       description: We are developed a product which can help others.
@@ -164,11 +165,11 @@ params:
   # Contact
   disable_contact: false
   contact_content: My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
-  email: "example@mail.com"
+  email: "Saqib.3019@gmail.com"
 
   # Footer
   socialiconfooter: true
-  recentposts: true
+  recentposts: false
 
   # Blog
   showdescription: false
